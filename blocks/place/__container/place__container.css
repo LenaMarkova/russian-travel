@@ -1,0 +1,23 @@
+.place__container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+@media (max-width: 1279px) {
+    .place__container {
+        column-gap: 32px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .place__container {
+        column-gap: 28px;
+    }
+}
+
+@media (max-width: 767px) {
+    .place__container {
+        flex-direction: column;
+    }
+}

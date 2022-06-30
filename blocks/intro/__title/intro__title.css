@@ -1,0 +1,29 @@
+.intro__title {
+    width: 690px;
+    height: 58px;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    /* identical to box height, or 107% */
+    color: #FFFFFF;
+}
+
+@media (max-width: 1023px) {
+    .intro__title {
+        width: calc(100% - 2 * 24px);
+        height: 58px;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro__title {
+        width: calc(100% - 2 * 16px);
+        height: 70px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

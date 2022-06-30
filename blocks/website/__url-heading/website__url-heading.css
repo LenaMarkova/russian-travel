@@ -1,0 +1,38 @@
+.website__url-heading {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 170%;
+    /* or 20px */
+    letter-spacing: 2px;
+    color: #AAAAAA;
+    width: 484px;
+    height: 22px;
+}
+
+@media (max-width: 1279px) {
+    .website__url-heading {
+        line-height: 170%;
+        width: 456px;
+        height: 22px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .website__url-heading {
+        width: 352px;
+        height: 22px;
+        line-height: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .website__url-heading {
+        width: calc(100% - 2*16px);
+        margin: 0 auto;
+        height: 22px;
+        line-height: 12px;
+    }
+}

@@ -1,0 +1,13 @@
+.website {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 12px;
+    padding-bottom: 48px;
+}
+
+@media (max-width: 767px) {
+    .website {
+        padding-bottom: 32px;
+    }
+}
