@@ -1,7 +1,7 @@
 .cover__overlay {
     max-width: 1184px;
     margin: auto;
-    height: 740px;
+    max-height: 740px;
     aspect-ratio: 1184/740;
     background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../../../images/cover-trains.jpg");
     background-size: cover;
@@ -29,8 +29,6 @@
 @media (max-width: 767px) {
     .cover__overlay {
         width: 100%;
-        min-width: 320px;
-        min-height: 200px;
     }
 }
 
