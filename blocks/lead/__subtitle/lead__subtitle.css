@@ -15,7 +15,6 @@
     .lead__subtitle {
         width: calc(100% - 2*16px);
         margin: auto;
-        height: 40px;
         font-size: 16px;
         line-height: 20px;
         padding-top: 16px;

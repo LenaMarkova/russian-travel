@@ -22,7 +22,6 @@
     .cover {
         width: 100%;
         max-width: 768px;
-        max-height: 480px;
         aspect-ratio: 768/480;
         margin: 90px auto 0;
     }

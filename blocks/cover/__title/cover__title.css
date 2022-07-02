@@ -1,6 +1,5 @@
 .cover__title {
     width: 560px;
-    height: 152px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -30,7 +29,6 @@
     .cover__title {
         width: calc(100% - 2*16px);
         max-width: 288px;
-        height: 70px;
         font-size: 32px;
         line-height: 35px;
         padding-top: 16.5%;
