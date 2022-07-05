@@ -1,4 +1,5 @@
 .website__link {
+    opacity: 1;
     margin: 0;
     padding: 0;
     width: 484px;
@@ -8,33 +9,18 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    transition: opacity 0.5s linear;
 }
 
 @media (max-width: 1279px) {
     .website__link {
-        margin: 0;
-        padding: 0;
         width: 456px;
-        color: #FFFFFF;
-        text-decoration-line: underline;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
     }
 }
 
 @media (max-width: 1023px) {
     .website__link {
-        margin: 0;
-        padding: 0;
         width: 352px;
-        text-decoration-line: underline;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 22px;
-        color: #FFFFFF;
     }
 }
 
@@ -43,4 +29,8 @@
         width: calc(100% - 2*16px);
         margin: 0 auto;
     }
+}
+
+.website__link:hover {
+    opacity: 0.8;
 }

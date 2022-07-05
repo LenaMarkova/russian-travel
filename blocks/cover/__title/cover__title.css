@@ -11,6 +11,8 @@
     color: #FFFFFF;
     margin: 0 auto;
     padding-top: 245px;
+    position: relative;
+    z-index: 6;
 }
 
 @media (max-width: 1279px) {
