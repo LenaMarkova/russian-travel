@@ -7,3 +7,9 @@
     flex-direction: row;
     padding-top: 46px;
 }
+
+@media (max-width: 767px) {
+    .header__links {
+        padding-top: 30px;
+    }
+}
