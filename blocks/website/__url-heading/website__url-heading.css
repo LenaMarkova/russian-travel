@@ -4,31 +4,29 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 170%;
-    /* or 20px */
+    max-height: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
     letter-spacing: 2px;
+    vertical-align: top;
     color: #AAAAAA;
-    width: 484px;
-    height: 22px;
+    padding-bottom: 12px;
 }
 
 @media (max-width: 1279px) {
     .website__url-heading {
-        line-height: 170%;
-        width: 456px;
+        line-height: 12px;
     }
 }
 
 @media (max-width: 1023px) {
     .website__url-heading {
-        width: 352px;
         line-height: 12px;
     }
 }
 
 @media (max-width: 767px) {
     .website__url-heading {
-        width: calc(100% - 2*16px);
-        margin: 0 auto;
+        padding-top: 32px;
     }
 }

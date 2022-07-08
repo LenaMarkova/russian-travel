@@ -1,13 +1,10 @@
 .website {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 12px;
-    padding-bottom: 48px;
+    align-self: end;
 }
 
 @media (max-width: 767px) {
     .website {
         padding-bottom: 32px;
+        padding-left: 16px;
     }
 }

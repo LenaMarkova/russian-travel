@@ -4,7 +4,7 @@
         margin: 92px auto 0;
         position: relative;
         z-index: 0;
-        background-image: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .3)), url("../../images/cover-trains.jpg");
+        background-image: linear-gradient(rgba(42, 44, 47, 0), rgba(42, 44, 47, 0)), url("../../images/cover-trains.jpg");
         background-size: cover;
         background-position: center;
     }
@@ -16,8 +16,8 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #2a2c2f;
         opacity: 0.3;
+        background-color: #2a2c2f;
         z-index: -1;
         transition: opacity 1s ease-in-out;
     }
@@ -29,14 +29,12 @@
     @media (max-width: 1279px) {
         .cover {
             width: 100%;
-            max-width: 1024px;
             aspect-ratio: 1024/640;
         }
     }
     
     @media (max-width: 1023px) {
         .cover {
-            max-width: 768px;
             aspect-ratio: 768/480;
             margin: 90px auto 0;
         }

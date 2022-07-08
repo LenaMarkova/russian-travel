@@ -2,33 +2,16 @@
     opacity: 1;
     margin: 0;
     padding: 0;
-    width: 484px;
     color: #FFFFFF;
-    text-decoration-line: underline;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     transition: opacity 0.5s linear;
-}
-
-@media (max-width: 1279px) {
-    .website__link {
-        width: 456px;
-    }
-}
-
-@media (max-width: 1023px) {
-    .website__link {
-        width: 352px;
-    }
-}
-
-@media (max-width: 767px) {
-    .website__link {
-        width: calc(100% - 2*16px);
-        margin: 0 auto;
-    }
+    text-decoration-line: none;
+    border-bottom: 1px solid;
+    vertical-align: bottom;
+    padding-top: 12px;
 }
 
 .website__link:hover {

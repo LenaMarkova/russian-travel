@@ -1,4 +1,4 @@
-    .intro__text {
+.intro__text {
     max-width: 690px;
     margin: 0;
     padding: 0;
@@ -6,23 +6,18 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 163%;
-    /* or 26px */
-    color: #FFFFFF;
+    color: #FFF;
     padding-top: 40px;
-}
-
-@media (max-width: 1279px) {
-    .intro__text {
-        width: 690px;
-    }
 }
 
 @media (max-width: 1023px) {
     .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro__text {
         width: calc(100% - 2 * 24px);
     }
-    @media (max-width: 767px) {
-        .intro__text {
-            width: calc(100% - 2 * 16px);
-        }
-    }
+}

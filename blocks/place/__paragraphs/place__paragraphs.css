@@ -1,6 +1,6 @@
 .place__paragraphs {
     row-gap: 26px;
-    width: 484px;
+    min-width: 484px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,13 +9,13 @@
 
 @media (max-width: 1279px) {
     .place__paragraphs {
-        width: 456px;
+        min-width: 456px;
     }
 }
 
 @media (max-width: 1023px) {
     .place__paragraphs {
-        width: 352px;
+        min-width: 352px;
         row-gap: 25px;
     }
 }

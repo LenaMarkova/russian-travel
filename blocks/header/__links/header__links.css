@@ -1,7 +1,9 @@
 .header__links {
     margin: 0;
     padding: 0;
-    display: flex;
     gap: 18px;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 46px;
 }
